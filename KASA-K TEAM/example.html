@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+        main page
+    </title>
+<style>
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: black; 
+}
+
+.navbar a {
+  float: left;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  width: 15%;
+}
+
+.subnav {
+  float: left;
+  overflow: hidden;
+}
+
+.subnav .subnavbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+.subnavbtn{
+    font-size: 18px;
+}
+
+.navbar a:hover, .subnav:hover .subnavbtn {
+  background-color:aqua;
+  color: black;
+}
+
+.subnav-content {
+  display: none;
+  position: absolute;
+  left: 0;
+  background-color:rgb(247, 247, 178);
+  width: 100%;
+  z-index: 1;
+}
+
+.subnav-content a {
+  float: left;
+  color: black;
+  text-decoration: none;
+}
+
+.subnav-content a:hover {
+  background-color:yellow;
+  color: black;
+}
+
+.subnav:hover .subnav-content {
+  display: block;
+}
+</style>
+</head>
+<body>
+
+<div class="navbar">
+  <a href="#home">HOME</a>
+  <div class="subnav">
+    <button class="subnavbtn" style="font-size: larger;">SERVICES </button>
+    <div class="subnav-content">
+      <a href="#company">HOTEL</a>
+      <a href="#team">FOOD</a>
+      <a href="#careers">TRAVEL</a>
+    </div>
+  </div> 
+  <a>ABOUT US</a>
+  <a>CONTACT</a>
+  <a>LOGIN</a>
+  
+  </div>
+
+</body>
+</html>

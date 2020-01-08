@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>travel page</title>
+<style>
+    .header{
+        margin-top: 10px;
+        color: white;
+        font-size: xxx-large;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-align: center;
+        height: 200px;
+        background-position: fixed;
+    }
+    #one{
+        background-color: yellowgreen;
+        color: black;
+    }
+    #two{
+        background-color: black;
+        color: yellowgreen;
+    }
+    body{
+        background-image: url(./bg1.jpg);
+    }
+.container{
+    width: 1280px;
+    margin:70px auto 0;
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+}
+
+.container .box{
+    position: relative;
+    width: 450px;
+     height: 400px;
+    /* background: #ff0;   */
+    margin:10px;
+    box-sizing: border-box;
+    display:inline-block;
+
+}
+.container .box .imgbox{
+    position: relative;
+    overflow: hidden;
+    width: 450px;
+     height: 400px;
+
+}
+.container .box .imgbox img{
+    max-width: 450px;
+    transition: transform 1s;
+}
+img{
+    width: 450px;
+    height: 400px;
+}
+
+.container .box:hover .imgbox img{
+    transform: scale(1.2);
+}
+
+/* .container .box .imgbox img{
+    transform:scale(1,2);
+    top:50%;
+    left:50%;
+    transform:translate(-10%,-10%);
+    padding: 30px 40px;
+    box-sizing: border-box;
+    border-radius:8px;
+text-align: center;
+box-shadow: 0 0 20px #000000b3;
+font-family: "Montserrat",sans-serif;
+} */
+
+ .container .box .details{
+    position: absolute;
+    top:0px;
+    left:10px;
+    bottom:10px;
+    right:10px;
+    background:rgba(30, 43, 6, 0.438);
+    transform:scaleX(0);
+    transition: transform .5s;
+}
+.container .box:hover .details{
+    transform: scaleY(1);
+}
+.container .box .details .content{
+    position: absolute;
+    top:50%;
+    transform: translateY(-60%);
+    text-align:center;
+    padding:15px;
+    color:#fff;
+}
+.container .box .details .content h2{
+    margin:0;
+    padding:0;
+    font-size: 20px;
+    /* color:#ff0;  */
+    text-align: center;
+}
+</style>
+    </head>
+    <body>
+        <div class="header">
+            <p><span id="one">WANDER</span><span id="two">LUST</span></p>
+        </div>
+        <div class="main">
+
+            <div class="container">
+                <div class="box">
+                <div class="imgbox">
+                <img src="1.jpg">
+                </div>
+                <div class="details">
+                <div class="content">
+                <h2><a href="deloitte.html">Deloitte</h2></a>
+                </div>
+                </div>
+                </div>
+                <div class="box">
+                <div class="imgbox">
+                <img src="2.jpg">
+                </div>
+                <div class="details">
+                <div class="content">
+                <h2><a href="infosys.html"></h2></a>
+                </div>
+                </div>
+                </div>
+                <div class="box">
+                <div class="imgbox">
+                <img src="taj.jpg">
+                </div>
+                <div class="details">
+                <div class="content">
+                <h2><a href="">TAJ MAHAL</a></h2>
+                </div>
+                </div>
+                </div>
+                <div class="box">
+                <div class="imgbox">
+                <img src="3.jpg">
+                </div>
+                <div class="details">
+                <div class="content">
+                <h2><a href="">WIPRO</h2></a>
+                </div>
+                </div>
+                </div>
+                <div class="box">
+                <div class="imgbox">
+                <img src="5.jpg">
+                </div>
+                <div class="details">
+                <div class="content">
+                <h2><a href="">JP Morgan</h2></a>
+                </div>
+                    </div>
+                    </div>
+                <div class="box">
+                <div class="imgbox">
+                <img src="6.jpg">
+                </div>
+                <div class="details">
+                    <div class="content">
+                    <h2><a href="wipro.html">WIPRO</h2></a>
+                    </div>
+                    </div>
+                </div>
+                <div class="box">
+                <div class="imgbox">
+                <img src="7.jpg">
+                </div>
+                <div class="details">
+                    <div class="content">
+                    <h2><a href="wipro.html">WIPRO</h2></a>
+                    </div>
+                    </div>
+               </div>
+                <div class="box">
+                <div class="imgbox">
+                <img src="8.jpg">
+                </div>
+                 </div>
+                    <div class="box">
+                        <div class="imgbox">
+                        <img src="9.jpg">
+                        </div>
+                        <div class="details">
+                            <div class="content">
+                            <h2><a href="wipro.html">WIPRO</h2></a>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="imgbox">
+                            <img src="10.jpg">
+                            </div>
+                            <div class="details">
+                            <div class="content">
+                            <h2><a href="dell.html">Dell</h2></a>
+                            </div>
+                            </div>
+                            </div>
+                            <div class="box">
+                                <div class="imgbox">
+                                <img src="11.jpg">
+                                </div>
+                                <div class="details">
+                                <div class="content">
+                                <h2><a href="dell.html">Dell</h2></a>
+                                </div>
+                                </div>
+                                </div>
+                                <div class="box">
+                                    <div class="imgbox">
+                                    <img src="12.jpg">
+                                    </div>
+                                    <div class="details">
+                                    <div class="content">
+                                    <h2><a href="dell.html">Dell</h2></a>
+                                    </div>
+                                    </div>
+                                    </div>
+        </div>
+
+    </body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>navbar</title>
+    <style>
+        
+    .main a{
+        background-color: black;
+        color: white;
+        padding: 10px;
+        width: 18%;
+        display: inline-block;
+    }
+    a{
+        display: block;
+        font-size: large;
+        text-align: center;
+    }
+
+    a:hover{
+        background-color: aqua;
+        color: black;
+    }
+    .subnav-content {
+  display: none;
+  position: absolute;
+  left: 0;
+  background-color: red;
+  width: 100%;
+  z-index: 1;
+}
+    </style>
+</head>
+<body>
+    <div class="main">
+        <a>HOME</a>
+        <div class="subnav">
+        <a>SERVICES</a>
+        <div class="subnav-content">
+            <a>HOTEL</a>
+            <a>TRAVEL</a>
+            <a>FOOD</a>
+        </div>
+    </div>
+        <a>ABOUT US</a>
+        <a>CONTACT</a>
+        <a>LOGIN</a>
+    </div>
+
+</body>
+</html>

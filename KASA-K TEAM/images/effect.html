@@ -1,0 +1,212 @@
+<html>
+<div class="container">
+<div class="box">
+<div class="imgbox">
+<img src="1.jpg">
+</div>
+<div class="details">
+<div class="content">
+<!-- <h2><A href="deloitte.html">Deloitte</h2></a> -->
+</div>
+</div>
+</div>
+<div class="box">
+<div class="imgbox">
+<img src="2.jpg">
+</div>
+<div class="details">
+<div class="content">
+<!-- <h2><a href="infosys.html">Infosys</h2></a> -->
+</div>
+</div>
+</div>
+<div class="box">
+<div class="imgbox">
+<img src="taj.jpg">
+</div>
+<div class="details">
+<div class="content">
+<!-- <h2><a href="hp.html">HP</h2></a> -->
+</div>
+</div>
+</div>
+<div class="box">
+<div class="imgbox">
+<img src="3.jpg">
+</div>
+<div class="details">
+<div class="content">
+<!-- <h2><a href="wipro.html">WIPRO</h2></a> -->
+</div>
+</div>
+</div>
+<div class="box">
+<div class="imgbox">
+<img src="5.jpg">
+</div>
+<div class="details">
+<div class="content">
+<!-- <h2><a href="jp.html">JP Morgan</h2></a> -->
+</div>
+</div>
+</div>
+<div class="box">
+<div class="imgbox">
+<img src="6.jpg">
+</div>
+<div class="details">
+<div class="content">
+<!-- <h2><a href="accenture.html">PWC</h2></a> -->
+</div>
+</div>
+</div>
+<div class="box">
+<div class="imgbox">
+<img src="7.jpg">
+</div>
+<div class="details">
+<div class="content">
+<!-- <h2><a href="sap.html">EY</h2></a> -->
+</div>
+</div>
+</div>
+<div class="box">
+<div class="imgbox">
+<img src="8.jpg">
+</div>
+<div class="details">
+<div class="content">
+<!-- <h2><a href="dell.html">Dell</h2></a> -->
+</div>
+</div>
+</div>
+    <div class="box">
+        <div class="imgbox">
+        <img src="9.jpg">
+        </div>
+        <div class="details">
+        <div class="content">
+        <!-- <h2><a href="dell.html">Dell</h2></a> -->
+        </div>
+        </div>
+        </div>
+        <div class="box">
+            <div class="imgbox">
+            <img src="10.jpg">
+            </div>
+            <div class="details">
+            <div class="content">
+            <!-- <h2><a href="dell.html">Dell</h2></a> -->
+            </div>
+            </div>
+            </div>
+            <div class="box">
+                <div class="imgbox">
+                <img src="11.jpg">
+                </div>
+                <div class="details">
+                <div class="content">
+                <!-- <h2><a href="dell.html">Dell</h2></a> -->
+                </div>
+                </div>
+                </div>
+                <div class="box">
+                    <div class="imgbox">
+                    <img src="12.jpg">
+                    </div>
+                    <div class="details">
+                    <div class="content">
+                    <!-- <h2><a href="dell.html">Dell</h2></a> -->
+                    </div>
+                    </div>
+                    </div>
+<style>
+.menu{
+    widows: 100%;
+    height: 100px;
+    background-color: rgba(0,0,0,0.5);
+}
+.contact-form{
+    width: 85%;
+    max-width: 600px;
+    background: #000;
+    position: absolute;
+    font-size: 18px;
+    margin-top: 6px;
+}
+.container{
+    width: 1280px;
+    margin:70px auto 0;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+.container .box{
+    position: relative;
+    width: 300px;
+     height: 300px;
+    /* background: #ff0;   */
+    margin:10px;
+    box-sizing: border-box;
+    display:inline-block;
+
+}
+.container .box .imgbox{
+    position: relative;
+    overflow: hidden;
+
+   
+}
+.container .box .imgbox img{
+    max-width: 100%;
+    transition: transform 2s;
+}
+
+.container .box:hover .imgbox img{
+    transform: scale(1.2);
+}
+
+.container .box .imgbox img{
+    transform:scale(1,2);
+    top:50%;
+    left:50%;
+    transform:translate(-10%,-10%);
+    padding: 30px 40px;
+    box-sizing: border-box;
+    border-radius:8px;
+text-align: center;
+box-shadow: 0 0 20px #000000b3;
+font-family: "Montserrat",sans-serif;
+}
+
+ .container .box .details{
+    position: absolute;
+    top:10px;
+    left:10px;
+    bottom:10px;
+    right:10px;
+    /* background:rgba(0,0,0,0.3); */
+    transform:scaleY(0);
+    transition: transform .5s;
+}
+.container .box:hover .details{
+    transform: scaleY(1);
+}
+.container .box .details .content{
+    position: absolute;
+    top:50%;
+    transform: translateY(-60%);
+    text-align:center;
+    padding:15px;
+    color:#fff;
+}
+.container .box .details .content h2{
+    margin:0;
+    padding:0;
+    font-size: 20px;
+    /* color:#ff0;  */
+}
+</style>
+   
+    </html>
